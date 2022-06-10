@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jW9UZzU9SOSel4HWc/PXKZqbyUSktjkJvimsVjDC7xFCtqevlmTN/22GfgIfvvowxIWGV+f8o1auyRTdze0k2A==",
+  "success": true,
+  "projectFilePath": "G:\\University Of Lincoln\\3rd Year\\Logic and Computation\\Interpreter F#\\Lamba_Calc_Interpreter\\LambdaCalculusF\\LambdaCalculusF.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alexa\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

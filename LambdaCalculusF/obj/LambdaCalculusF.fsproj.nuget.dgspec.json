@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "G:\\University Of Lincoln\\3rd Year\\Logic and Computation\\Interpreter F#\\Lamba_Calc_Interpreter\\LambdaCalculusF\\LambdaCalculusF.fsproj": {}
+  },
+  "projects": {
+    "G:\\University Of Lincoln\\3rd Year\\Logic and Computation\\Interpreter F#\\Lamba_Calc_Interpreter\\LambdaCalculusF\\LambdaCalculusF.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\University Of Lincoln\\3rd Year\\Logic and Computation\\Interpreter F#\\Lamba_Calc_Interpreter\\LambdaCalculusF\\LambdaCalculusF.fsproj",
+        "projectName": "LambdaCalculusF",
+        "projectPath": "G:\\University Of Lincoln\\3rd Year\\Logic and Computation\\Interpreter F#\\Lamba_Calc_Interpreter\\LambdaCalculusF\\LambdaCalculusF.fsproj",
+        "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
+        "outputPath": "G:\\University Of Lincoln\\3rd Year\\Logic and Computation\\Interpreter F#\\Lamba_Calc_Interpreter\\LambdaCalculusF\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alexa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[5.0.0, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
