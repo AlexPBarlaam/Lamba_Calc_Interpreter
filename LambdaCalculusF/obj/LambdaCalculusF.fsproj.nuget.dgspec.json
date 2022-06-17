@@ -1,21 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "G:\\University Of Lincoln\\3rd Year\\Logic and Computation\\Interpreter F#\\Lamba_Calc_Interpreter\\LambdaCalculusF\\LambdaCalculusF.fsproj": {}
+    "C:\\Users\\Computing\\Lamba_Calc_Interpreter\\LambdaCalculusF\\LambdaCalculusF.fsproj": {}
   },
   "projects": {
-    "G:\\University Of Lincoln\\3rd Year\\Logic and Computation\\Interpreter F#\\Lamba_Calc_Interpreter\\LambdaCalculusF\\LambdaCalculusF.fsproj": {
+    "C:\\Users\\Computing\\Lamba_Calc_Interpreter\\LambdaCalculusF\\LambdaCalculusF.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\University Of Lincoln\\3rd Year\\Logic and Computation\\Interpreter F#\\Lamba_Calc_Interpreter\\LambdaCalculusF\\LambdaCalculusF.fsproj",
+        "projectUniqueName": "C:\\Users\\Computing\\Lamba_Calc_Interpreter\\LambdaCalculusF\\LambdaCalculusF.fsproj",
         "projectName": "LambdaCalculusF",
-        "projectPath": "G:\\University Of Lincoln\\3rd Year\\Logic and Computation\\Interpreter F#\\Lamba_Calc_Interpreter\\LambdaCalculusF\\LambdaCalculusF.fsproj",
-        "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
-        "outputPath": "G:\\University Of Lincoln\\3rd Year\\Logic and Computation\\Interpreter F#\\Lamba_Calc_Interpreter\\LambdaCalculusF\\obj\\",
+        "projectPath": "C:\\Users\\Computing\\Lamba_Calc_Interpreter\\LambdaCalculusF\\LambdaCalculusF.fsproj",
+        "packagesPath": "C:\\Users\\Computing\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Computing\\Lamba_Calc_Interpreter\\LambdaCalculusF\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\alexa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Computing\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -36,6 +42,7 @@
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
               "target": "Package",
               "version": "[5.0.0, )",
               "generatePathProperty": true
@@ -51,12 +58,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.23, 3.1.23]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
