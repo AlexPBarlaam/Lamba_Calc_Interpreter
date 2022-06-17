@@ -30,17 +30,20 @@ let rec tokenize (text:char list) = //function to tokenize the expression
         then [Variable c]
         else []) @ tokenize rest //@ is a shortcut in F for list.append
 
+type Env = (char*Term) list 
+
 type Term =  //defines the different expressions of lambda calculus for parsing
     |TermVariable of char
     |TermFunc of char*Term
+    |TermClosure of  
     |TermApplication of Term*Term
 
 let rec parseSingle (tokens: Token list): (Term* Token list) = 
     match tokens with
     | (Variable name::rest) -> TermVariable name, rest
-    | (Lambda::Variable arg::Dot::FuncBody)  -> 
+    | (Lambda::Variable arg::Dot::funcBody)  -> 
         
-        let body, rest = parseSingle FuncBody
+        let body, rest = parseSingle funcBody
         
         TermFunc(arg, body), rest
     
@@ -59,3 +62,17 @@ let rec parseSingle (tokens: Token list): (Term* Token list) =
 let Parse (tokens:Token list) =
     fst <| parseSingle tokens
     
+let eavlInEnv (env: Env) (term: Term): Term = 
+    match term with
+        |TermVariable name ->
+            match List.tryFind (fun (aName, term) -> aName = name)env with
+            | Some ( _ ,term) -> term
+            | None -> failwith "Error: could not find term by name"
+        
+        |TermFunc(arg, body) ->
+            
+
+        |TermApplication
+let eval(term:Term): Term =
+    evalInEnv [] term
+
